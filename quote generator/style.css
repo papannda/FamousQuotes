@@ -1,0 +1,219 @@
+html{font-size: 62.5%;}
+
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+html {
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 767px) {
+    html {
+      font-size: calc(10 / 375 * 100vw);
+    }
+}
+}
+
+body{
+    font-family: "Funnel Sans", sans-serif;
+    background-image: url(images/white-background2.jpg);
+    background-size: cover;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+    align-items: center;
+    height: 16.5rem;
+    font-size: 2.5rem;
+    font-style: italic;
+    line-height: 1.7;
+    color: #f1f3ce;
+    background-color: #00293c;
+}
+
+@media screen and (max-width: 767px) {
+    header{
+    justify-content: center;
+    font-size: 1.5rem;
+    position: relative;
+    height: 10rem;
+    
+        }
+    }
+
+#lang{  font-size: 2rem;
+    color: #f1f3ce;
+    background-color:#f62a00;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 54%;
+    /* align-items: center; */
+    text-align: center;
+    transform: translate(50%, -50%);}
+
+    @media screen and (max-width: 767px) {
+    #lang{
+        font-size: 1.5rem;
+        position: absolute;
+        width: 3.5rem;
+        height: 3.5rem;
+        right: 5%;
+        top: 12%;
+        transform: none;
+
+    
+        }
+    }
+
+    /*@media screen and (max-width: 767px) {
+    {
+    
+        }
+    }
+    ひな形
+------------------------------------------ */
+.cover{
+    background: rgb(241,243,206);
+    background: linear-gradient(90deg, rgba(241,243,206,1) 35%, rgba(30,101,110,1) 100%);
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-size: 3rem;
+    text-shadow: 1px 2px 3px #808080
+
+}
+
+@media screen and (max-width: 767px) {
+    .cover{
+    font-size: 1.5rem;
+    height: 30rem;
+
+        }
+    }
+.section-2{
+    max-width: 78rem;
+    padding: 10rem 5rem;
+    margin: 0 auto;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .section-2{
+        max-width: 40rem;
+        padding: 7rem 3rem;
+        
+        }
+    }
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-sub-title{
+    text-align: center;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+.quote-sub-title {
+    font-size: 2rem;
+        }
+    }
+
+#new-quote{
+    text-align: center;
+    margin: 2rem 0px 3rem 12rem;
+    font-size: 3rem;
+    border: 1px solid #f62a00;
+    background-color: #f62a00;
+    color: #f1f3ce;
+    border-radius: 6rem;
+    padding: 2rem;
+    width: 40rem;
+    
+}
+
+@media screen and (max-width: 767px) {
+#new-quote {
+    font-size: 1.5rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    margin: 1.9rem auto;
+        }
+    }
+.note{
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .note{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    }
+}
+.quote-background{
+    position: relative;
+    background-image: url(images/sun-rise-2.jpg);
+    background-size: cover;
+    height: 46rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .quote-background{
+    height: 35rem;
+    }
+}
+
+#quote{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    #quote{
+        top: 5%;
+        font-size: 1.5rem;
+        line-height: 2;
+    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #quote.no-margin{
+    top: 0;
+    line-height: 1.2;
+    }
+}
+
+#quote-person{
+    
+    position: absolute;
+    font-size: 2rem;
+    top: 85%;
+    left: 68%;
+
+}
+
+@media screen and (max-width: 767px) {
+    #quote-person{
+    top: 80%;
+    font-size: 1.5rem;
+    }
+}
